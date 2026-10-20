@@ -11,8 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.print("Vilken växt ska få vätska? Igge, Laura, Meatloaf eller Olof: " +
-                    "Eller skriv 'avsluta' för att stänga ner programmet: ");
+            System.out.print("Vilken växt ska få vätska? Eller skriv 'avsluta' för att stänga ner programmet: ");
             String soktNamn = scanner.nextLine().trim();
 
             if (soktNamn.equalsIgnoreCase("avsluta")) {

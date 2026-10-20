@@ -1,6 +1,6 @@
 public class Palm extends Vaxt {
 
-        private static final double literPerMeter = 0.5;
+        private static final double LITER_PER_METER = 0.5;
 
         public Palm(String namn, double langdMeter) {
             super(namn, langdMeter);
@@ -9,7 +9,7 @@ public class Palm extends Vaxt {
         @Override
         public double mangdVatska() {
 
-            return literPerMeter * getLangdMeter();
+            return LITER_PER_METER * getLangdMeter();
         }
 
         @Override

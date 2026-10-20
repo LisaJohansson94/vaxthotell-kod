@@ -1,7 +1,7 @@
 public class KottatandeVaxt extends Vaxt {
 
-        private static final double basMangdLiter = 0.1;
-        private static final double extraLiterPerMeter = 0.2;
+        private static final double BAS_MANGD_LITER = 0.1;
+        private static final double EXTRA_LITER_PER_METER = 0.2;
 
         public KottatandeVaxt(String namn, double langdMeter) {
             super(namn, langdMeter);
@@ -10,7 +10,7 @@ public class KottatandeVaxt extends Vaxt {
         @Override
         public double mangdVatska() {
 
-            return basMangdLiter + (extraLiterPerMeter * getLangdMeter());
+            return BAS_MANGD_LITER + (EXTRA_LITER_PER_METER * getLangdMeter());
         }
 
         @Override

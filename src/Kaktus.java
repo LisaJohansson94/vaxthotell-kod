@@ -1,6 +1,6 @@
 public class Kaktus extends Vaxt {
 
-    private static final double fastMangdLiter = 0.02;
+    private static final double FAST_MANGD_LITER = 0.02;
 
         public Kaktus(String namn, double langdMeter) {
             super(namn, langdMeter);
@@ -9,7 +9,7 @@ public class Kaktus extends Vaxt {
         @Override
         public double mangdVatska() {
 
-            return fastMangdLiter;
+            return FAST_MANGD_LITER;
         }
 
         @Override
